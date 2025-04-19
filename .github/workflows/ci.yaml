@@ -1,1 +1,4 @@
 name : SairamGithub
+on:
+    push:
+        branches: master
