@@ -26,3 +26,5 @@ jobs:
 
       - name: Build
         run: ./gradlew build
+      - name: docker build
+        run: docker image build -t sample:latest .
